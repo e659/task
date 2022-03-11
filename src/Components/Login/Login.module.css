@@ -1,0 +1,65 @@
+.fcBtn {
+    border: 1px #0d6efd solid !important;
+    color: #0d6efd !important;
+}
+
+.googleBtn {
+    border: 1px red solid !important;
+    color: red !important;
+}
+
+.appleBtn {
+    border: 1px black solid !important;
+    color: black !important;
+}
+
+.p1Size {
+    font-size: 9px;
+}
+
+.p2Size {
+    font-size: 10px;
+    color: grey;
+}
+
+
+/* media Query */
+
+
+/* small screen */
+
+@media screen and (max-width:568px) {
+    .infoDiv {
+        width: 450px;
+        margin-left: 10%;
+    }
+    .loginMethods {
+        width: 450px;
+        margin-left: 10%;
+    }
+    .cookiesDiv {
+        width: 450px;
+        margin-left: 10%;
+    }
+    .cookiesP {
+        font-size: 15px;
+    }
+}
+
+
+/* meduim screen */
+
+@media screen and (min-width:569px) and (max-width:768px) {
+    .infoDiv {
+        width: 500px;
+    }
+    .loginMethods {
+        width: 500px;
+    }
+    .cookiesDiv {
+        width: 500px;
+    }
+    .cookiesP {
+        font-size: 15px;
+    }
+}
